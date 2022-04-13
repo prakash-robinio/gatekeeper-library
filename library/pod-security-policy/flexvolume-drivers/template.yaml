@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspflexvolumes
+  displayName: Whitelist FlexVolume Drivers
   annotations:
     description: >-
       Controls the allowlist of FlexVolume drivers. Corresponds to the

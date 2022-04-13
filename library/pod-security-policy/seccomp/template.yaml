@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspseccomp
+  displayName: Restrict Seccomp Profile
   annotations:
     description: >-
       Controls the seccomp profile used by containers. Corresponds to the

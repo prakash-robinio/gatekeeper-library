@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspfsgroup
+  displayName: Restrict FSGroup
   annotations:
     description: >-
       Controls allocating an FSGroup that owns the Pod's volumes. Corresponds

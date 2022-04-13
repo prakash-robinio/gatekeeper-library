@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspprivilegedcontainer
+  displayName: Restrict Privileged Mode
   annotations:
     description: >-
       Controls the ability of any container to enable privileged mode.

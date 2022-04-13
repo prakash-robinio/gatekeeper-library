@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspforbiddensysctls
+  displayName: Restrict Sysctls
   annotations:
     description: >-
       Controls the `sysctl` profile used by containers. Corresponds to the

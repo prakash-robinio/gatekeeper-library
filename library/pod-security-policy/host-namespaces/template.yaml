@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spsphostnamespace
+  displayName: Restrict Host Namespace Access
   annotations:
     description: >-
       Disallows sharing of host PID and IPC namespaces by pod containers.

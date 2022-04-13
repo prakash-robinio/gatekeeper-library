@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spspvolumetypes
+  displayName: Restrict Volume Types
   annotations:
     description: >-
       Restricts mountable volume types to those specified by the user.

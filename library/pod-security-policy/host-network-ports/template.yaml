@@ -2,6 +2,7 @@ apiVersion: templates.gatekeeper.sh/v1
 kind: ConstraintTemplate
 metadata:
   name: k8spsphostnetworkingports
+  displayName: Restrict Host Network Namespace Access
   annotations:
     description: >-
       Controls usage of host network namespace by pod containers. Specific
