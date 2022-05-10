@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8spspprocmount
   displayName: Restrict ProcMount Types
+  labels:
+    type: security
   annotations:
     description: >-
       Controls the allowed `procMount` types for the container. Corresponds to

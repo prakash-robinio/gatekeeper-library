@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8sdisallowanonymous
   displayName: Restrict Anonymous Roles
+  labels:
+    type: security
   annotations:
     description: Disallows associating ClusterRole and Role resources to the system:anonymous user and system:unauthenticated group.
 spec:

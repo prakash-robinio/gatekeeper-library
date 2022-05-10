@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8spspautomountserviceaccounttokenpod
   displayName: Restrict automountServiceAccountToken
+  labels:
+    type: security
   annotations:
     description: >-
       Controls the ability of any Pod to enable automountServiceAccountToken.

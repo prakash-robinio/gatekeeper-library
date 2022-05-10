@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8sallowedrepos
   displayName: Restrict Allowed Repos
+  labels:
+    type: org
   annotations:
     description: >-
       Requires container images to begin with a string from the specified list.

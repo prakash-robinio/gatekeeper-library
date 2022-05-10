@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8scontainerrequests
   displayName: Enforce Resource Requests
+  labels:
+    type: org
   annotations:
     description: >-
       Requires containers to have memory and CPU requests set and constrains

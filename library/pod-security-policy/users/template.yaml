@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8spspallowedusers
   displayName: Restrict UserAndGroup IDs
+  labels:
+    type: security
   annotations:
     description: >-
       Controls the user and group IDs of the container and some volumes.

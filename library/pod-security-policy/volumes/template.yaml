@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8spspvolumetypes
   displayName: Restrict Volume Types
+  labels:
+    type: security
   annotations:
     description: >-
       Restricts mountable volume types to those specified by the user.

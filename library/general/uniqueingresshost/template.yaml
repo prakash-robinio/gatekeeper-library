@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8suniqueingresshost
   displayName: Enforce Unique Ingress Host
+  labels:
+    type: org
   annotations:
     description: >-
       Requires all Ingress rule hosts to be unique.

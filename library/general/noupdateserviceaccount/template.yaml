@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: noupdateserviceaccount
   displayName: Restrict ServiceAccount Update
+  labels:
+    type: security
   annotations:
     description: "Blocks updating the service account on resources that abstract over Pods. This policy is ignored in audit mode."
 spec:

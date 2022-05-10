@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8sdisallowedtags
   displayName: Enforce Image Tags
+  labels:
+    type: org
   annotations:
     description: >-
       Requires container images to have an image tag different from the ones in

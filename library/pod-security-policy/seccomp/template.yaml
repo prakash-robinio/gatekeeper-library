@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8spspseccomp
   displayName: Restrict Seccomp Profile
+  labels:
+    type: security
   annotations:
     description: >-
       Controls the seccomp profile used by containers. Corresponds to the

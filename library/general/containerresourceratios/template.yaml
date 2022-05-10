@@ -3,6 +3,8 @@ kind: ConstraintTemplate
 metadata:
   name: k8scontainerratios
   displayName: Enforce Resource Ratios
+  labels:
+    type: org
   annotations:
     description: >-
       Sets a maximum ratio for container resource limits to requests.
