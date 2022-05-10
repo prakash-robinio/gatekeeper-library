@@ -11,3 +11,4 @@ spec:
     forbiddenSysctls:
     # - "*" # * may be used to forbid all sysctls
     - kernel.*
+  enforcementAction: dryrun

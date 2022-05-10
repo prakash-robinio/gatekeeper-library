@@ -11,3 +11,4 @@ spec:
         kinds: ["PodDisruptionBudget"]
       - apiGroups: [""]
         kinds: ["ReplicationController"]
+  enforcementAction: dryrun

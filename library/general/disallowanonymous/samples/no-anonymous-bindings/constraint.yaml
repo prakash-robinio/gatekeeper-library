@@ -12,3 +12,4 @@ spec:
   parameters:
     allowedRoles: 
       - cluster-role-1
+  enforcementAction: dryrun

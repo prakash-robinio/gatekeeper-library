@@ -7,3 +7,4 @@ spec:
     kinds:
       - apiGroups: ["extensions", "networking.k8s.io"]
         kinds: ["Ingress"]
+  enforcementAction: dryrun

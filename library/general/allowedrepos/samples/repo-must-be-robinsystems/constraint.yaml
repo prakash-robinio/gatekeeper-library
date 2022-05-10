@@ -11,4 +11,5 @@ spec:
       - "default"
   parameters:
     repos:
-      - "openpolicyagent/"
+      - "artifactory.robinsystems.com/"
+  enforcementAction: dryrun

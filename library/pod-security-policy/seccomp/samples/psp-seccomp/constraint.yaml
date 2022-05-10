@@ -11,3 +11,4 @@ spec:
     allowedProfiles:
     - runtime/default
     - docker/default
+  enforcementAction: dryrun

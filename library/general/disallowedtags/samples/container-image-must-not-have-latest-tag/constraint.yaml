@@ -12,3 +12,4 @@ spec:
   parameters:
     tags: ["latest"]
     exemptImages: ["openpolicyagent/opa-exp:latest", "openpolicyagent/opa-exp2:latest"]
+  enforcementAction: dryrun

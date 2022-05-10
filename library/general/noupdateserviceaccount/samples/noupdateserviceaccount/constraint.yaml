@@ -31,3 +31,4 @@ spec:
   parameters:
     allowedGroups: []
     allowedUsers: []
+  enforcementAction: dryrun

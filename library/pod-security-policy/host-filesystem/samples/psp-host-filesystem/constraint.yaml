@@ -11,3 +11,4 @@ spec:
     allowedHostPaths:
     - readOnly: true
       pathPrefix: "/foo"
+  enforcementAction: dryrun

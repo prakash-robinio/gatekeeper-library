@@ -10,3 +10,4 @@ spec:
   parameters:
     cpu: "200m"
     memory: "1Gi"
+  enforcementAction: dryrun

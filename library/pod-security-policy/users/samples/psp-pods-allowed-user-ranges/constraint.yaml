@@ -28,3 +28,4 @@ spec:
       ranges:
         - min: 100
           max: 200
+  enforcementAction: dryrun

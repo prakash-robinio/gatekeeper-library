@@ -16,3 +16,4 @@ spec:
       - key: a8r.io/runbook
         # Matches urls including or not http/https
         allowedRegex: ^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$
+  enforcementAction: dryrun

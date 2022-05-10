@@ -11,3 +11,4 @@ spec:
     allowedFlexVolumes: #[]
     - driver: "example/lvm"
     - driver: "example/cifs"
+  enforcementAction: dryrun

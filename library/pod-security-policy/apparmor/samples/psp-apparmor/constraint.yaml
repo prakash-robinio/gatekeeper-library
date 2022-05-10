@@ -10,3 +10,4 @@ spec:
   parameters:
     allowedProfiles:
     - runtime/default
+  enforcementAction: dryrun

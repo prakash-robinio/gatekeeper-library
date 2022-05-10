@@ -10,3 +10,4 @@ spec:
   parameters:
     allowedIPs:
       - "203.0.113.0"
+  enforcementAction: dryrun

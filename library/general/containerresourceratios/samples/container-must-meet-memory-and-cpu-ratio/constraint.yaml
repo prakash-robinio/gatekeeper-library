@@ -10,3 +10,4 @@ spec:
   parameters:
     ratio: "1"
     cpuRatio: "10"
+  enforcementAction: dryrun

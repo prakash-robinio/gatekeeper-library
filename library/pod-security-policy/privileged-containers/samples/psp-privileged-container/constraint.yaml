@@ -8,3 +8,4 @@ spec:
       - apiGroups: [""]
         kinds: ["Pod"]
     excludedNamespaces: ["kube-system"]
+  enforcementAction: dryrun

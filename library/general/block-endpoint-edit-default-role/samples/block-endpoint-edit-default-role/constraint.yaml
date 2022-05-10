@@ -7,3 +7,4 @@ spec:
     kinds:
       - apiGroups: ["rbac.authorization.k8s.io"]
         kinds: ["ClusterRole"]
+  enforcementAction: dryrun
